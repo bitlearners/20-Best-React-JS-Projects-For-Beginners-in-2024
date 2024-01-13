@@ -1,0 +1,88 @@
+/* src/components/Button.css */
+.custom-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
+/* src/components/Card.css */
+.custom-card {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.custom-card p {
+  color: #666;
+}
+
+
+/* src/components/Container.css */
+.custom-container {
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+/* src/components/Card.css */
+.custom-card {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.custom-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.custom-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.custom-card p {
+  color: #666;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.icon-like,
+.icon-comment {
+  font-size: 24px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.icon-like:hover,
+.icon-comment:hover {
+  color: #2980b9;
+}
+

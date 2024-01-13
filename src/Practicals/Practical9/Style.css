@@ -1,0 +1,116 @@
+/* SharedStyles.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App.css */
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #b661e7;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #8936b9;
+  border-radius: 5px;
+}
+
+.routes-container {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+p {
+  color: #555;
+}
+
+/* Blog.css */
+
+.blog-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Page.css */
+
+.page-container {
+  max-width: 95%;
+  height:70vh;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}

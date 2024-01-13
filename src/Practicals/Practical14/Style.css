@@ -1,0 +1,121 @@
+/* TodoList.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  color: #fff;
+}
+
+.todo-list-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+h1 {
+  color: #9a49e6;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.add-task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 16px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #ab5cf5;
+  color: #fff;
+  border: none;
+  border-radius: 10px ;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  padding: 16px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #ab5cf5;
+  color: #fff;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9a49e6;
+}
+
+.tasks-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  color: #9a49e6;
+  
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.task-item:hover {
+  background-color: #f5fafa;
+  transform: translateY(-5px);
+}
+
+.task-item.completed {
+  background-color: #bdc3c7;
+  text-decoration: line-through;
+}
+
+.task-item span {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+}
+
+.check-icon {
+  color: #2ecc71;
+}
+
+.trash-icon {
+  color: #ffffff;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}

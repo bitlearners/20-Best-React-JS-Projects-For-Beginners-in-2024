@@ -1,0 +1,63 @@
+
+  h1{
+    max-width: 600px;
+    margin: 1rem auto;
+
+  }
+
+.accordion {
+    border: 1px solid #ddd;
+    
+    max-width: 600px;
+    margin: 1rem auto;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .expanded {
+    max-height: 200px; /* Adjust the max-height as needed */
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .icon {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #fff transparent transparent transparent;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .expanded .icon {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-content {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+  }
+  
+  /* Optional: Add a subtle hover effect */
+  
+  .accordion:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .accordion:hover .accordion-header {
+    background-color: #007bb5;
+  }
+  
